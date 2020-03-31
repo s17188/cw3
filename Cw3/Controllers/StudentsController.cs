@@ -31,7 +31,6 @@ namespace Cw3.Controllers
             return Ok(_dbService.GetStudentsEnrollment(id));
         }
 
-
         [HttpPost]
         public IActionResult CreateStudent(Student student)
         {
