@@ -149,17 +149,17 @@ namespace Cw3.DAL
                         std.enrollment = enrollment;
                         com.CommandText = "select IndexNumber from Student where IndexNumber=@IndexNumber";
                         com.Parameters.AddWithValue("IndexNumber", std.IndexNumber);
-                        var student = com.ExecuteReader();
-                        if (!student.Read())
+                        //var student = com.ExecuteReader();
+                        /*if (!student.Read() || student["IndexNumber"] == null)
                         {
                             student.Close();
                             tran.Rollback();
                             std.status = "Student istnieje";
                         }
                         else
-                        {
+                        {*/
                             std.status = "Student dodany";
-                            student.Close();
+                         //   student.Close();
                             com.CommandText = "INSERT INTO Student(IndexNumber, FirstName, LastName, BirthDate, idEnrollment) VALUES(@Index, @Fname, @Lname, @Bdate, @idEnrollment)";
                             com.Parameters.AddWithValue("Index", std.IndexNumber);
                             com.Parameters.AddWithValue("Fname", std.FirstName);
@@ -170,11 +170,12 @@ namespace Cw3.DAL
 
                             tran.Commit();
 
-                        }
+                        //}
                     }
                     catch (SqlException exc)
                     {
                         tran.Rollback();
+                        std.status = "From student tryCatch: " + exc.Message.ToString();
                     }
 
                 }
