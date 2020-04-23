@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
 using Cw3.Models;
 
 namespace Cw3.DAL
@@ -11,5 +7,6 @@ namespace Cw3.DAL
     {
         public IEnumerable<Student> GetStudents();
         public IEnumerable<Enrollment> GetStudentsEnrollment(string id);
+        public IEnumerable<EnrollStudent> AddNewStudentAndEnroll(EnrollStudent enrollStudent);
     }
 }

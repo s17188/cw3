@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Cw3.Models;
-using Cw3.DAL;
 using System.Data.SqlClient;
 
 namespace Cw3.DAL
@@ -76,5 +73,118 @@ namespace Cw3.DAL
             return list;
         }
 
+        public IEnumerable<EnrollStudent> AddNewStudentAndEnroll(EnrollStudent enrollStudent)
+        {
+            var std = new EnrollStudent();
+            std.IndexNumber = enrollStudent.IndexNumber;
+            std.FirstName = enrollStudent.FirstName;
+            std.LastName = enrollStudent.LastName;
+            std.BirthDate = enrollStudent.BirthDate.Replace('.', '/');
+            std.Studies = enrollStudent.Studies;
+            std.status = "Ok";
+
+
+            DateTime myDateTime = Convert.ToDateTime(std.BirthDate);
+            string sqlFormattedDate = myDateTime.ToString("yyyy-MM-dd HH:mm:ss.fff");
+
+            using (SqlConnection con = new SqlConnection(DataSQLCon))
+            using (SqlCommand com = new SqlCommand())
+            {
+
+                com.Connection = con;
+                con.Open();
+                var tran = con.BeginTransaction();
+                try
+                {
+                    com.CommandText = "select idStudy from Studies where Name=@Name";
+                    com.Parameters.AddWithValue("Name", std.Studies);
+                    com.Transaction = tran;
+                    var stud = com.ExecuteReader();
+                    if (!stud.Read())
+                    {
+                        tran.Rollback();
+                        std.status = "Studia nie istnieja";
+                        
+                    }
+                    int idstudies = (int)stud["idStudy"];
+                    stud.Close();
+                    System.Diagnostics.Debug.WriteLine("STUD AFTER");
+                    com.CommandText = "select idEnrollment,StartDate from Enrollment where idStudy=@idStudy order by StartDate";
+                    com.Parameters.AddWithValue("idStudy", idstudies);
+                    int idenrollment;
+                    DateTime localDate;
+                    var enroll = com.ExecuteReader();
+                    if (!enroll.Read())
+                    {
+                        std.status = "Semestr nie istnieje";
+                        Random random = new Random();
+                        localDate = DateTime.Now;
+                        int num = random.Next(20);
+                        idenrollment = num;
+                        com.CommandText = "INSERT INTO Enrollment VALUES(@id,@Semestr,@IdStudies,@StartDate)";
+                        com.Parameters.AddWithValue("id", num);
+                        com.Parameters.AddWithValue("Semestr", 1);
+                        com.Parameters.AddWithValue("IdStudies", idstudies);
+                        com.Parameters.AddWithValue("StartDate", localDate);
+                        enroll.Close();
+                        System.Diagnostics.Debug.WriteLine("SEMM");
+                        com.ExecuteNonQuery();
+
+                    }
+                    else
+                    {
+                        idenrollment = (int)enroll["IdEnrollment"];
+                        localDate = (DateTime)enroll["StartDate"];
+                        enroll.Close();
+                    }
+
+                    try
+                    {
+
+                        Enrollment enrollment = new Enrollment();
+                        enrollment.IdEnrollment = idenrollment;
+                        enrollment.IdStudy = idstudies;
+                        enrollment.Semester = 1;
+                        enrollment.StartDate = localDate.ToString();
+                        std.enrollment = enrollment;
+                        com.CommandText = "select IndexNumber from Student where IndexNumber=@IndexNumber";
+                        com.Parameters.AddWithValue("IndexNumber", std.IndexNumber);
+                        var student = com.ExecuteReader();
+                        if (!student.Read())
+                        {
+                            student.Close();
+                            tran.Rollback();
+                            std.status = "Student istnieje";
+                        }
+                        else
+                        {
+                            std.status = "Student dodany";
+                            student.Close();
+                            com.CommandText = "INSERT INTO Student(IndexNumber, FirstName, LastName, BirthDate, idEnrollment) VALUES(@Index, @Fname, @Lname, @Bdate, @idEnrollment)";
+                            com.Parameters.AddWithValue("Index", std.IndexNumber);
+                            com.Parameters.AddWithValue("Fname", std.FirstName);
+                            com.Parameters.AddWithValue("Lname", std.LastName);
+                            com.Parameters.AddWithValue("idEnrollment", idenrollment);
+                            com.Parameters.AddWithValue("Bdate", sqlFormattedDate);
+                            com.ExecuteNonQuery();
+
+                            tran.Commit();
+
+                        }
+                    }
+                    catch (SqlException exc)
+                    {
+                        tran.Rollback();
+                    }
+
+                }
+                catch (SqlException exc)
+                {
+                    tran.Rollback();
+                    std.status = exc.Message.ToString();
+                }
+            }
+            yield return std;
+        }
     }
 }
