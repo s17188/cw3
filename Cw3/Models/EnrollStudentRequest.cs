@@ -7,9 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cw3.Models
 {
-    public class EnrollStudent
+    public class EnrollStudentRequest
     {
-        public string status { get; set; }
         public Enrollment enrollment { get; set; }
 
         [Required]

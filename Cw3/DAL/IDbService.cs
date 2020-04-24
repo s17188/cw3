@@ -7,6 +7,7 @@ namespace Cw3.DAL
     {
         public IEnumerable<Student> GetStudents();
         public IEnumerable<Enrollment> GetStudentsEnrollment(string id);
-        public IEnumerable<EnrollStudent> AddNewStudentAndEnroll(EnrollStudent enrollStudent);
+       /* public IEnumerable<EnrollStudent> AddNewStudentAndEnroll(EnrollStudent enrollStudent);
+        public IEnumerable<Study> PromotionStudent(Study study);*/
     }
 }

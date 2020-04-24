@@ -2,32 +2,49 @@
 using System.Linq;
 using Cw3.DAL;
 using Cw3.Models;
+using Cw3.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cw3.Controllers
 {
     [ApiController]
-    [Route("api/enrollments")]
     public class EnrollmentsController : ControllerBase
     {
-        private readonly IDbService _dbService;
-        public EnrollmentsController(IDbService dbService)
+        private IStudentDbService _service;
+        public EnrollmentsController(IStudentDbService service)
         {
-            _dbService = dbService;
+            _service = service;
         }
+        [Route("api/enrollments")]
         [HttpPost]
-        public IActionResult AddStudentAndEnroll(EnrollStudent enrollStudent)
+        public IActionResult AddStudentAndEnroll(EnrollStudentRequest enrollStudent)
         {
-            var response = _dbService.AddNewStudentAndEnroll(enrollStudent);
-            if(response.FirstOrDefault()?.status == "Ok")
+            var response = _service.EnrollStudent(enrollStudent);
+            if(response.status == "Student dodany")
+            {
+                return Created(response.status, response);
+            }
+            else
+            {
+                return BadRequest(response);
+            }
+        }
+        [Route("api/enrollments/promotions")]
+        [HttpPost]
+        public IActionResult PromotionStudent(Study study)
+        {
+           /* var response = _dbService.AddNewStudentAndEnroll(enrollStudent);
+            if (response.FirstOrDefault()?.status == "Ok")
             {
                 return Ok(response);
             }
             else
             {
                 return BadRequest(response);
-            }
-            //return Ok(_dbService.AddNewStudentAndEnroll(enrollStudent));
+            }*/
+            return Ok(study);
         }
+
     }
+
 }
