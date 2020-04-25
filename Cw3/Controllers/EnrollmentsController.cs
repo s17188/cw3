@@ -33,16 +33,8 @@ namespace Cw3.Controllers
         [HttpPost]
         public IActionResult PromotionStudent(Study study)
         {
-           /* var response = _dbService.AddNewStudentAndEnroll(enrollStudent);
-            if (response.FirstOrDefault()?.status == "Ok")
-            {
-                return Ok(response);
-            }
-            else
-            {
-                return BadRequest(response);
-            }*/
-            return Ok(study);
+            var response = _service.PromoteStudents(study.Semester, study.Studies);
+            return Created("Students promoted",response);
         }
 
     }

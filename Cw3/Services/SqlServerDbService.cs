@@ -1,6 +1,7 @@
 ﻿using Cw3.Models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
@@ -120,30 +121,51 @@ namespace Cw3.Services
             }
         }
 
-        public void PromoteStudents(int semester, string studies)
+        public Enrollment PromoteStudents(int semester, string studies)
         {
-            using (SqlConnection con = new SqlConnection(DataSQLCon))
-            using (SqlCommand com = new SqlCommand())
+            using (var conn = new SqlConnection(DataSQLCon))
+            using (var command = new SqlCommand("PromoteStudents", conn)
             {
-                com.Connection = con;
-                con.Open();
-                var tran = con.BeginTransaction();
-                try
+                CommandType = CommandType.StoredProcedure
+            })
+            {
+                command.Parameters.Add(new SqlParameter("@Studies",studies));
+                command.Parameters.Add(new SqlParameter("@Semester", semester));
+
+                var returnParameter = command.Parameters.Add("@ReturnVal", SqlDbType.Int);
+                returnParameter.Direction = ParameterDirection.ReturnValue;
+
+                conn.Open();
+                command.ExecuteNonQuery();
+                var result = returnParameter.Value;
+                System.Diagnostics.Debug.WriteLine("home " + result);
+
+                conn.Close();
+
+                SqlCommand com = new SqlCommand();
+                com.Connection = conn;
+                conn.Open();
+
+                com.CommandText = "select idEnrollment,idStudy,Semester,StartDate from Enrollment where idEnrollment=@idEnrollment";
+                com.Parameters.AddWithValue("idEnrollment", result);
+
+
+                Enrollment enrollment = new Enrollment();
+                var enroll = com.ExecuteReader();
+                if (enroll.Read())
                 {
-                    com.CommandText = "select Studies.IdStudy from Enrollment INNER JOIN Studies ON Studies.IdStudy = Enrollment.IdStudy where Studies.Name=@Name AND Enrollment.Semester=@Semestr";
-                    com.Parameters.AddWithValue("Name", studies);
-                    com.Parameters.AddWithValue("Semestr", semester);
-                    com.Transaction = tran;
-                    var stud = com.ExecuteReader();
-                    if (!stud.Read())
-                    {
-                        tran.Rollback();
-                    }
+                    enrollment.IdEnrollment = (int)enroll["IdEnrollment"];
+                    enrollment.IdStudy = (int)enroll["IdStudy"];
+                    enrollment.Semester = (int)enroll["Semester"];
+                    enrollment.StartDate = (string)enroll["StartDate"].ToString();
+                    enroll.Close();
                 }
-                catch (SqlException exc)
+                else
                 {
-                    tran.Rollback();
+                    enroll.Close();
                 }
+                conn.Close();
+                return enrollment;
             }
         }
 
