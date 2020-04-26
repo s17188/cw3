@@ -9,8 +9,6 @@ namespace Cw3.Models
 {
     public class EnrollStudentRequest
     {
-        public Enrollment enrollment { get; set; }
-
         [Required]
         public string IndexNumber { get; set; }
         [Required]

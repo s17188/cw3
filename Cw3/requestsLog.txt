@@ -1,0 +1,23 @@
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"Studies": "IT",
+	"Semester": 1
+}
+[END]

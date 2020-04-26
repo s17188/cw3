@@ -169,5 +169,29 @@ namespace Cw3.Services
             }
         }
 
+        public Student GetStudent(string index)
+        {
+            using (SqlConnection con = new SqlConnection(DataSQLCon))
+            using (SqlCommand com = new SqlCommand())
+            {
+                com.Connection = con;
+                com.CommandText = "select IndexNumber from Student WHERE IndexNumber=@Index";
+                com.Parameters.AddWithValue("Index", index);
+
+                con.Open();
+                var st = new Student();
+                SqlDataReader sqlRead = com.ExecuteReader();
+                if (sqlRead.Read())
+                {
+                    
+                    st.IndexNumber = sqlRead["IndexNumber"].ToString();
+                    return st;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
     }
 }
