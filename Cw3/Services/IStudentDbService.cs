@@ -11,5 +11,7 @@ namespace Cw3.Services
         EnrollStudentResponse EnrollStudent(EnrollStudentRequest request);
         Enrollment PromoteStudents(int semester, string studies);
         Student GetStudent(string index);
+        LoginResponse LoginStudent(string login, string haslo);
+        LoginResponse RefreshToken(string refToken);
     }
 }

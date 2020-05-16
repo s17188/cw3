@@ -21,3 +21,2360 @@
 	"Semester": 1
 }
 [END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"Studies": "IT",
+	"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Password": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Password": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "IT",
+	"Haslo": "asd"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test13"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test13"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToke
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   ?=s1234
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   ?Index=s1234
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   ?Index=s1234
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"IndexNumber": "s1234",
+	"FirstName": "Andrzej",
+	"LastName": "Malewski",
+	"BirthDate": "30.03.1993",
+	"Studies": "IT"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"IndexNumber": "s1234",
+	"FirstName": "Andrzej",
+	"LastName": "Malewski",
+	"BirthDate": "30.03.1993",
+	"Studies": "IT"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"IndexNumber": "s1234",
+	"FirstName": "Andrzej",
+	"LastName": "Malewski",
+	"BirthDate": "30.03.1993",
+	"Studies": "IT"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"IndexNumber": "s1234",
+	"FirstName": "Andrzej",
+	"LastName": "Malewski",
+	"BirthDate": "30.03.1993",
+	"Studies": "IT"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"IndexNumber": "s1234",
+	"FirstName": "Andrzej",
+	"LastName": "Malewski",
+	"BirthDate": "30.03.1993",
+	"Studies": "IT",
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDYxNSwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.xgf2W_ykUdewu_5qPw10zjXW4gUjCU0d0dOBKi7RcBI"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken/
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken/
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken/8734BA48-C6FA-4134-9341-D127481BC6C1
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken/8734BA48-C6FA-4134-9341-D127481BC6C1
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken/8734BA48-C6FA-4134-9341-D127481BC6C1
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken/6C0D3848-C54F-44D0-9E90-10D2C4745549
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students/refreshToken/7B6AC0E5-955E-44FC-BFDB-4B37995EB0A0
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiczE3MTIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3R1ZGVudCIsImV4cCI6MTU4OTY0MDU0OCwiaXNzIjoiR2Fra28iLCJhdWQiOiJTdHVkZW50cyJ9.Hc7VGRoGqvxM6B67RkAWwmdjCoSnoAvVd5fxoe8ai70"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "79/10QXtzR7YYxeti1nKqnZc+UyUOGuVdY4unvEgK7FWBUaNDTEZ8CHMEHpwV7Nvd1THUaAWmxFlq/uyTrgWEg=="
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "79/10QXtzR7YYxeti1nKqnZc+UyUOGuVdY4unvEgK7FWBUaNDTEZ8CHMEHpwV7Nvd1THUaAWmxFlq/uyTrgWEg=="
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "79/10QXtzR7YYxeti1nKqnZc+UyUOGuVdY4unvEgK7FWBUaNDTEZ8CHMEHpwV7Nvd1THUaAWmxFlq/uyTrgWEg=="
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Bhfjtdvph8YQ17fxJBRgtFCZ2tPp+5gK6BRS/MA3NlncP/ICbc5dYNhdomq8Y6fEYGYTGHnl9jw0KnqS/7WbJg=="
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test1234"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test1234"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/students
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+	"Login": "s17123",
+	"Haslo": "Test123"
+}
+[END]

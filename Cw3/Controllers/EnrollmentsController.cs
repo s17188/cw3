@@ -3,6 +3,7 @@ using System.Linq;
 using Cw3.DAL;
 using Cw3.Models;
 using Cw3.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cw3.Controllers
@@ -17,6 +18,7 @@ namespace Cw3.Controllers
         }
         [Route("api/enrollments")]
         [HttpPost]
+        [Authorize(Roles="employee")]
         public IActionResult AddStudentAndEnroll(EnrollStudentRequest enrollStudent)
         {
             var response = _service.EnrollStudent(enrollStudent);
@@ -31,6 +33,7 @@ namespace Cw3.Controllers
         }
         [Route("api/enrollments/promotions")]
         [HttpPost]
+        [Authorize(Roles="employee")]
         public IActionResult PromotionStudent(Study study)
         {
             var response = _service.PromoteStudents(study.Semester, study.Studies);
