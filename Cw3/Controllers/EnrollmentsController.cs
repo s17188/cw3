@@ -18,7 +18,7 @@ namespace Cw3.Controllers
         }
         [Route("api/enrollments")]
         [HttpPost]
-        [Authorize(Roles="employee")]
+        //[Authorize(Roles="employee")]
         public IActionResult AddStudentAndEnroll(EnrollStudentRequest enrollStudent)
         {
             var response = _service.EnrollStudent(enrollStudent);
@@ -33,7 +33,7 @@ namespace Cw3.Controllers
         }
         [Route("api/enrollments/promotions")]
         [HttpPost]
-        [Authorize(Roles="employee")]
+        //[Authorize(Roles="employee")]
         public IActionResult PromotionStudent(Study study)
         {
             var response = _service.PromoteStudents(study.Semester, study.Studies);
