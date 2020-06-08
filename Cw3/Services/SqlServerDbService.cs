@@ -57,7 +57,7 @@ namespace Cw3.Services
                                 .OrderBy(e => e.StartDate);
             int idenrollment;
             DateTime localDate;
-            if (enrollment.Count() > 0) {
+            if (enrollment.Count() == 0) {
                 response.status = "Semestr nie istnieje";
                 Random random = new Random();
                 localDate = DateTime.Now;
@@ -209,45 +209,50 @@ namespace Cw3.Services
         {
 
             var db = new s17188Context();
-            //var parameters = new { studies, semester };
-            //var affectedDatas = db.Database.ExecuteSqlCommand("PromoteStudents @Studies, @Semester", parameters);
-            //object[] xparams = {
-            //    new SqlParameter("@Studies", studies),
-            //    new SqlParameter("@Semester", semester),
-            //    new SqlParameter("@ReturnVal", SqlDbType.Int) {Direction = ParameterDirection.Output}};
+     
+            object[] xparams = {
+                new SqlParameter("@Studies", studies),
+                new SqlParameter("@Semester", semester),
+                new SqlParameter("@ReturnVal", SqlDbType.Int) {Direction = ParameterDirection.ReturnValue }
+            };
 
-            //SqlParameter param1 = new SqlParameter("@Studies", studies);
-            //SqlParameter param2 = new SqlParameter("@Semester", semester);
-            //SqlParameter param3 = new SqlParameter("@ReturnVal", SqlDbType.Int);
+            var affectedDatas = db.Database.ExecuteSqlCommand("PromoteStudents @Studies, @Semester", xparams);
+            var ReturnValue = ((SqlParameter)xparams[2]).Value;
+            var result = (int)ReturnValue;
 
-            //var ReturnValue = ((SqlParameter)xparams[2]).Value;
+            var enroll = db.Enrollment
+                    .Where(e => e.IdEnrollment == affectedDatas)
+                    .Single();
 
-            using (var conn = new SqlConnection(DataSQLCon))
-            using (var command = new SqlCommand("PromoteStudents", conn)
-            {
-                CommandType = CommandType.StoredProcedure
-            })
-            {
-                command.Parameters.Add(new SqlParameter("@Studies", studies));
-                command.Parameters.Add(new SqlParameter("@Semester", semester));
+            return enroll;
 
-                var returnParameter = command.Parameters.Add("@ReturnVal", SqlDbType.Int);
-                returnParameter.Direction = ParameterDirection.ReturnValue;
+            //System.Diagnostics.Debug.WriteLine(affectedDatas);
+            //using (var conn = new SqlConnection(DataSQLCon))
+            //using (var command = new SqlCommand("PromoteStudents", conn)
+            //{
+            //    CommandType = CommandType.StoredProcedure
+            //})
+            //{
+            //    command.Parameters.Add(new SqlParameter("@Studies", studies));
+            //    command.Parameters.Add(new SqlParameter("@Semester", semester));
 
-                conn.Open();
-                command.ExecuteNonQuery();
-                var result = returnParameter.Value;
-                System.Diagnostics.Debug.WriteLine("home " + result);
+            //    var returnParameter = command.Parameters.Add("@ReturnVal", SqlDbType.Int);
+            //    returnParameter.Direction = ParameterDirection.ReturnValue;
 
-                conn.Close();
+            //    conn.Open();
+            //    command.ExecuteNonQuery();
+            //    var result = returnParameter.Value;
+            //    System.Diagnostics.Debug.WriteLine("home " + result);
 
-                var enroll = db.Enrollment
-                .Where(e => e.IdEnrollment == (int)result)
-                .Single();
+            //    conn.Close();
 
-                return enroll;
+            //    var enroll = db.Enrollment
+            //    .Where(e => e.IdEnrollment == (int)result)
+            //    .Single();
 
-            }
+            //    return enroll;
+
+            //}
             //SqlCommand com = new SqlCommand();
             //com.Connection = conn;
             //conn.Open();
